@@ -1,0 +1,68 @@
+.titulo_disponiveis{
+    font-family: 'Indie Flower', cursive;
+}
+.titulo_bemvindo p{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Great Vibes', cursive;
+}
+.imagem_right{
+    object-fit: cover;
+    width: 40%;
+    height: 100%;
+    position:fixed
+}
+
+body{
+    background-color: aqua;
+}
+.right_side{
+    display: inline;
+    width: 40%;
+}
+.left_side{
+    background-color: azure;
+    display: inline;
+    float: left;
+    width: 60%;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+
+
+.imagem_present{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+ /*
+.imagem_present:hover{
+    animation: infinite 4s initial;
+    animation-duration: 4s;
+    border-radius: 0%;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    /* animation: forwards; */
+    /* animation-name: example; */
+  /* animation-iteration-count: infinite; 
+}*/
+
+.imagem_present_disable{
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+li{
+    padding: 10px;
+}
