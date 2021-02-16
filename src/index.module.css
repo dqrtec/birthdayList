@@ -1,5 +1,6 @@
 .titulo_disponiveis{
     font-family: 'Indie Flower', cursive;
+    margin: 10px 10px 10px 70px;
 }
 .titulo_bemvindo p{
     text-align: center;
@@ -13,28 +14,23 @@
     position:fixed
 }
 
+.tamanho{
+    color: silver;
+    font-size: 12px;
+}
+
 body{
-    background-color: aqua;
+    background-color: #e6eef7;
 }
 .right_side{
     display: inline;
     width: 40%;
 }
 .left_side{
-    background-color: azure;
     display: inline;
     float: left;
     width: 60%;
 }
-@keyframes example {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
-  }
-
-
 
 .imagem_present{
     border-radius: 50%;
