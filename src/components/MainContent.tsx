@@ -95,7 +95,7 @@ function MainContent(props:any) {
 
         return <div className={styles.titulo_bemvindo}>
             <p>
-                Bem Vindo<br /> Esta é minha lista de presentes<br />
+                Bem Vindos ao meu site<br /> Esta é minha lista de presentes<br />
             </p>
 
             {/* <button onClick={()=>{getEnable(true)}}> chamar requisicao </button> */}

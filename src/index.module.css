@@ -9,27 +9,31 @@
 }
 .imagem_right{
     object-fit: cover;
-    width: 40%;
+    width: 30%;
     height: 100%;
-    position:fixed
+    position:fixed;
+    /* background-position: -100px -100px; */
+    /* offset-position: -100px -100px; */
+    /* text-indent: -100%; */
 }
 
+.right_side{
+    display: inline;
+    width: 30%;
+    position: absolute;
+}
 .tamanho{
     color: silver;
-    font-size: 12px;
+    font-size: 18px;
 }
 
 body{
     background-color: #e6eef7;
 }
-.right_side{
-    display: inline;
-    width: 40%;
-}
 .left_side{
     display: inline;
     float: left;
-    width: 60%;
+    width: 70%;
 }
 
 .imagem_present{

@@ -43,7 +43,7 @@ function ListEnable(props:any) {
             <div>
                 <img className={styles.imagem_present} src={ process.env.PUBLIC_URL + './imagens/' + i.nome_imagem } />
                 <div>
-                        <span>{i.nome}</span> <b><span className={styles.tamanho}>{i.tamanho}</span> </b> <br />
+                        <span>{i.nome}</span> <b><span className={styles.tamanho}>Tam:{i.tamanho}</span> </b> <br />
                         <span> {i.marca} </span><br />
                         <Button type="primary" onClick={()=>{showConfirm(i.id)}}>
                             Presentear 
