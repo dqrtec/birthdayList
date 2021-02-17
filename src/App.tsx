@@ -16,16 +16,4 @@ function App() {
   );
 }
 
-
-// const left_side = {
-//   "background-color": "azure",
-//   display: "inline",
-//   width: 600,
-//   // float: "left",
-// }
-
-// const rigth_side={
-//   display:'inline'
-// }
-
 export default App;
