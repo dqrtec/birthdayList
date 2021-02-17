@@ -3,6 +3,7 @@ interface Iitens{
     nome?:string;
     descricao?:string;
     marca?: string;
+    tamanho?:string;
     id?:number;
     isEnable?:boolean;
 }

@@ -34,22 +34,19 @@ body{
 
 .imagem_present{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     object-fit: cover;
 }
- /*
+ 
 .imagem_present:hover{
     animation: infinite 4s initial;
     animation-duration: 4s;
     border-radius: 0%;
     width: 230px;
     height: 230px;
-    object-fit: cover;
-    /* animation: forwards; */
-    /* animation-name: example; */
-  /* animation-iteration-count: infinite; 
-}*/
+    object-fit: contain;
+}
 
 .imagem_present_disable{
     opacity: 0.5;

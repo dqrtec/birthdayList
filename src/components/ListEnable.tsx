@@ -22,7 +22,8 @@ function ListEnable(props:any) {
           onOk() {
             props.removeItem(id);
             return new Promise((resolve, reject) => {
-              setTimeout(Math.random() > 0.5 ? resolve : reject, 1000);
+                alert(" Sua Escolha de presente foi confimada! ")
+                setTimeout(Math.random() > 0.5 ? resolve : reject, 1000);
             }).catch(() => console.log('Oops errors!'));
           },
           onCancel() {},
@@ -42,7 +43,7 @@ function ListEnable(props:any) {
             <div>
                 <img className={styles.imagem_present} src={ process.env.PUBLIC_URL + './imagens/' + i.nome_imagem } />
                 <div>
-                        <span>{i.descricao}</span> <b><span className={styles.tamanho}>tam 18</span> </b> <br />
+                        <span>{i.nome}</span> <b><span className={styles.tamanho}>{i.tamanho}</span> </b> <br />
                         <span> {i.marca} </span><br />
                         <Button type="primary" onClick={()=>{showConfirm(i.id)}}>
                             Presentear 
