@@ -10,7 +10,7 @@ function App() {
         <MainContent></MainContent>
       </div>
       <div className={styles.rigth_side}>
-        <img src={larissa} className={styles.imagem_right} alt=""/>
+        <img src="https://github.com/dqrtec/birthdayList/blob/gh-pages/imagens/larissa.jpeg?raw=true" className={styles.imagem_right} alt=""/>
       </div>
     </div>
   );

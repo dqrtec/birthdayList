@@ -4,6 +4,7 @@ interface Iitens{
     descricao?:string;
     marca?: string;
     id?:number;
+    isEnable?:boolean;
 }
 
 export default Iitens;
